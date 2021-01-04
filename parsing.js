@@ -63,8 +63,8 @@ let fstrToFunction = (fstr) => {
     if (fname === "typeof") { jsFName = "_typeof"; }
     if (fname === "instanceof") { jsFName = "_instanceof"; }
 
-    jsCode += `window.${jsFName}=(${argStr})=>{return gml_Script_gmcallback_${fname}(null,null${argStr === "" ? "" : "," + argStr});};`;
-    gmlCode += `function gmcallback_${fname}(${argStr}){return ${fname}(${argStr});}`;
+    jsCode += `if(window.${jsFName}===undefined){window.${jsFName}=(${argStr})=>{return gml_Script_gmcallback_${fname}(null,null${argStr === "" ? "" : "," + argStr});};}\n`;
+    gmlCode += `function gmcallback_${fname}(${argStr}){return ${fname}(${argStr});}\n`;
 }
 
 for (let fstr of source) {
@@ -93,5 +93,5 @@ for (let fstr of source) {
     }
 }
 
-fs.writeFileSync("gml-js-bridge/extensions/js_bridge_extension/js_bridge.js", jsCode);
-fs.writeFileSync("gml-js-bridge/scripts/js_bridge/js_bridge.gml", gmlCode);
+fs.writeFileSync("gml-js-bridge/extensions/js_bridge_extension/fns.js", jsCode);
+fs.writeFileSync("gml-js-bridge/scripts/fns/fns.gml", gmlCode);

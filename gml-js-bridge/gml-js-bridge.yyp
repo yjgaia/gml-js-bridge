@@ -1,8 +1,11 @@
 {
   "resources": [
     {"id":{"name":"js_bridge_extension","path":"extensions/js_bridge_extension/js_bridge_extension.yy",},"order":0,},
-    {"id":{"name":"js_bridge","path":"scripts/js_bridge/js_bridge.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"js_bridge_init_object","path":"objects/js_bridge_init_object/js_bridge_init_object.yy",},"order":0,},
+    {"id":{"name":"gmcallback_application_surface","path":"scripts/gmcallback_application_surface/gmcallback_application_surface.yy",},"order":2,},
+    {"id":{"name":"fns","path":"scripts/fns/fns.yy",},"order":0,},
+    {"id":{"name":"gmcallback_room","path":"scripts/gmcallback_room/gmcallback_room.yy",},"order":1,},
+    {"id":{"name":"room_main","path":"rooms/room_main/room_main.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -23,7 +26,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room_main","path":"rooms/room_main/room_main.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

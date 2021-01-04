@@ -16,7 +16,13 @@
   "androidProps": false,
   "installdir": "",
   "files": [
-    {"filename":"js_bridge.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+    {"filename":"fns.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+    {"filename":"extra.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+    {"filename":"main.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
+        {"externalName":"js_bridge_extension_main","kind":5,"help":"js_bridge_extension_main()","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"js_bridge_extension_main","tags":[],"resourceType":"GMExtensionFunction",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[
+        {"name":"js_bridge_extension_main","path":"extensions/js_bridge_extension/js_bridge_extension.yy",},
+      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
   ],
   "classname": "",
   "tvosclassname": null,

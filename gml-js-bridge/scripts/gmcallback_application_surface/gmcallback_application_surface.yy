@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "js_bridge",
+  "name": "gmcallback_application_surface",
   "tags": [],
   "resourceType": "GMScript",
 }
