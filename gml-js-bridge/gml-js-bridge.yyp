@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"js_bridge_extension","path":"extensions/js_bridge_extension/js_bridge_extension.yy",},"order":0,},
     {"id":{"name":"js_bridge_init_object","path":"objects/js_bridge_init_object/js_bridge_init_object.yy",},"order":0,},
+    {"id":{"name":"js_bridge_template_object","path":"objects/js_bridge_template_object/js_bridge_template_object.yy",},"order":1,},
     {"id":{"name":"gmcallback_application_surface","path":"scripts/gmcallback_application_surface/gmcallback_application_surface.yy",},"order":2,},
     {"id":{"name":"fns","path":"scripts/fns/fns.yy",},"order":0,},
     {"id":{"name":"gmcallback_room","path":"scripts/gmcallback_room/gmcallback_room.yy",},"order":1,},
